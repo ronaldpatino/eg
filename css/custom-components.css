@@ -1,0 +1,45 @@
+body{
+    font-size: 14px;
+}
+
+.centro h2 {
+    background-color: #0f6cb6;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 35px;
+    position: relative;
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 0;
+    padding-left: 10px !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.text-ar{
+    text-align: right;
+    padding-right: 10px !important;
+}
+
+.noticias-main{
+    height: 320px !important;
+    max-height: 320px !important;
+}
+
+.barra-main{
+
+    height: 52px !important;
+    max-height: 52px !important;
+}
+.barra-renova{
+    padding-top: 10px;
+}
+
+.ble{
+    background-color: #0f6cb6;
+    width: 960px;
+    height: 300px;
+    margin-left: 15px;
+    display: block;
+}

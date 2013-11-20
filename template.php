@@ -20,5 +20,3 @@ function eg_js_alter(&$js) {
     unset($js['misc/drupal.js']);
 
 }
-
-

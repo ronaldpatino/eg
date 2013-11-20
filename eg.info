@@ -9,6 +9,8 @@ regions[content] = Content
 regions[footer] = Footer
 
 stylesheets[all][] = css/bootstrap.min.css
+stylesheets[all][] = css/custom-theme.css
+stylesheets[all][] = css/custom-components.css
 
 scripts[] = js/jquery.js
 scripts[] = js/bootstrap.js

@@ -1,45 +1,65 @@
 <div class="container">
 
-    <!-- Static navbar -->
-    <div class="navbar navbar-default" role="navigation">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#">Project name</a>
-        </div>
-        <div class="navbar-collapse collapse">
-            <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Link</a></li>
-                <li><a href="#">Link</a></li>
-                <li><a href="#">Link</a></li>
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="#">Action</a></li>
-                        <li><a href="#">Another action</a></li>
-                        <li><a href="#">Something else here</a></li>
-                        <li class="divider"></li>
-                        <li class="dropdown-header">Nav header</li>
-                        <li><a href="#">Separated link</a></li>
-                        <li><a href="#">One more separated link</a></li>
-                    </ul>
-                </li>
-            </ul>
-            <ul class="nav navbar-nav navbar-right">
-                <li class="active"><a href="./">Default</a></li>
-                <li><a href="../navbar-static-top/">Static top</a></li>
-                <li><a href="../navbar-fixed-top/">Fixed top</a></li>
-            </ul>
-        </div><!--/.nav-collapse -->
+    <div class="page-header">
+        <img src="<?php print base_path() . drupal_get_path('theme', 'EG'); ?>/img/logo-elecgal.png">
     </div>
 
-    <!-- Main component for a primary marketing message or call to action -->
-    <div class="jumbotron">
-        <?php print render($page['content']); ?>
+    <div class="navbar navbar-top" role="navigation">
+        <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Inicio</a></li>
+            <li><a href="#">Transparencia</a></li>
+            <li><a href="#">Programas/Servicios</a></li>
+            <li><a href="#">Planificaci&oacute;n</a></li>
+            <li><a href="#">Comunicados</a></li>
+            <li><a href="#">Biblioteca</a></li>
+            <li><a href="#">Enlaces</a></li>
+            <li><a href="#">Cont&aacute;cto</a></li>
+        </ul>
+    </div>
+    <!-- Static navbar -->
+
+    <div class="row">
+        <div class="col-xs-12">
+            <img src="<?php print base_path() . drupal_get_path('theme', 'EG'); ?>/img/carrusel1.png">
+        </div>
+    </div>
+
+    <div class="row centro">
+        <div class="col-xs-4">
+            <h2 class="text-ar">Energ&iacute;a Renovable</h2>
+            <div class="noticias-main">
+                <?php print render($page['content']); ?>
+            </div>
+        </div>
+        <div class="col-xs-8">
+            <h2>&Uacute;ltimas Noticias</h2>
+            <div class="noticias-main">
+
+            </div>
+        </div>
+    </div>
+
+    <div class="barra-main">
+        <img src="<?php print base_path() . drupal_get_path('theme', 'EG'); ?>/img/consulte-planilla.png"><img src="<?php print base_path() . drupal_get_path('theme', 'EG'); ?>/img/mapa-sitio.png"><img src="<?php print base_path() . drupal_get_path('theme', 'EG'); ?>/img/contacto.png"><img src="<?php print base_path() . drupal_get_path('theme', 'EG'); ?>/img/comentarios.png"><img src="<?php print base_path() . drupal_get_path('theme', 'EG'); ?>/img/quejas-reclamos.png">
+    </div>
+    <br/>
+    <div class="row">
+        <div class="ble">
+            <div class="col-xs-4">
+                <img src="<?php print base_path() . drupal_get_path('theme', 'EG'); ?>/img/informacion-general.png">
+            </div>
+            <div class="col-xs-4">
+                <img src="<?php print base_path() . drupal_get_path('theme', 'EG'); ?>/img/nuestros-servicios.png">
+            </div>
+            <div class="col-xs-4 barra-renova">
+                <img src="<?php print base_path() . drupal_get_path('theme', 'EG'); ?>/img/plan-renova.png ">
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12">
+            <img src="<?php print base_path() . drupal_get_path('theme', 'EG'); ?>/img/ecuador-ama-la-vida.png"><img src="<?php print base_path() . drupal_get_path('theme', 'EG'); ?>/img/presidencia-ecuador.png"><img src="<?php print base_path() . drupal_get_path('theme', 'EG'); ?>/img/ministerio-energia.png"><img src="<?php print base_path() . drupal_get_path('theme', 'EG'); ?>/img/ministerio-coordinador.png"><img src="<?php print base_path() . drupal_get_path('theme', 'EG'); ?>/img/revolucion-ciudadana.png"><img src="<?php print base_path() . drupal_get_path('theme', 'EG'); ?>/img/youtube.png"><img src="<?php print base_path() . drupal_get_path('theme', 'EG'); ?>/img/facebook.png"><img src="<?php print base_path() . drupal_get_path('theme', 'EG'); ?>/img/twitter.png">
+        </div>
     </div>
 
 </div> <!-- /container -->
