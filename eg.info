@@ -1,0 +1,18 @@
+name = EG Theme
+description = Custom theme for EG
+core = 7.x
+engine = phptemplate
+
+regions[header] = Header
+regions[sidebar_first] = Right sidebar
+regions[content] = Content
+regions[footer] = Footer
+
+stylesheets[all][] = css/bootstrap.min.css
+
+scripts[] = js/jquery.js
+scripts[] = js/bootstrap.js
+
+features[] = name
+features[] = main_menu
+features[] = logo
