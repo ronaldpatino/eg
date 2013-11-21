@@ -1,5 +1,4 @@
 <div class="container">
-
     <div class="page-header">
         <img src="<?php print base_path() . drupal_get_path('theme', 'EG'); ?>/img/logo-elecgal.png">
     </div>
@@ -46,7 +45,10 @@
     <div class="row">
         <div class="ble">
             <div class="col-xs-4">
-                <img src="<?php print base_path() . drupal_get_path('theme', 'EG'); ?>/img/informacion-general.png">
+                <?php if ($page['bloque_pie_izquierda']): ?>
+                        <?php print render($page['bloque_pie_izquierda']); ?>
+                <?php endif; ?>
+
             </div>
             <div class="col-xs-4">
                 <img src="<?php print base_path() . drupal_get_path('theme', 'EG'); ?>/img/nuestros-servicios.png">

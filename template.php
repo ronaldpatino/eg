@@ -20,3 +20,14 @@ function eg_js_alter(&$js) {
     unset($js['misc/drupal.js']);
 
 }
+/*
+function eg_block_view_alter(&$data, $block) {
+    if (is_array($data['content'])) {
+    $data['content']['#prefix'] = '<div class="my-class">';
+    $data['content']['#suffix'] = '</div>';
+    }
+    else {
+        $data['content'] = '<div class="my-class">' . $data['content'] . '</div>';
+    }
+}
+*/

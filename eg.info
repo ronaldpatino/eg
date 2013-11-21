@@ -7,6 +7,9 @@ regions[header] = Header
 regions[sidebar_first] = Right sidebar
 regions[content] = Content
 regions[footer] = Footer
+regions[bloque_pie_izquierda] = Bloque Pie Izquierda
+regions[bloque_pie_centro] = Bloque Pie Centro
+regions[bloque_pie_derecha] = Bloque Pie Derecha
 
 stylesheets[all][] = css/bootstrap.min.css
 stylesheets[all][] = css/custom-theme.css
