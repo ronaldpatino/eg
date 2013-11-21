@@ -16,6 +16,13 @@
         </ul>
     </div>
     <!-- Static navbar -->
+
+    <div class="row">
+        <div class="col-xs-12">
+            <img src="<?php print base_path() . drupal_get_path('theme', 'EG'); ?>/img/carrusel1.png">
+        </div>
+    </div>
+
     <div class="row centro">
         <div class="col-xs-4">
             <h2 class="text-ar">Energ&iacute;a Renovable</h2>
