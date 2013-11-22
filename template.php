@@ -15,9 +15,16 @@ function eg_css_alter(&$css) {
 
 function eg_js_alter(&$js) {
     unset($js['settings']);
+    $js['themes/eg/js/bootstrap.js']['group'] = JS_SYSTEM;
+    /*
     unset($js['misc/jquery.js']);
     unset($js['misc/jquery.once.js']);
     unset($js['misc/drupal.js']);
+
+    $js['misc/ui/jquery.effects.core.min.js'] = JS_DEFAULT;
+    $js['themes/eg/js/jquery.js']['group'] = JS_SYSTEM;
+    $js['themes/eg/js/bootstrap.js']['group'] = JS_SYSTEM;
+*/
 
 }
 /*

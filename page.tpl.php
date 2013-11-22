@@ -26,7 +26,9 @@
         <div class="col-xs-8">
             <h2>&Uacute;ltimas Noticias</h2>
             <div class="noticias-main">
-
+                <?php if ($page['bloque_noticias_rotativo']): ?>
+                    <?php print render($page['bloque_noticias_rotativo']); ?>
+                <?php endif; ?>
             </div>
         </div>
     </div>
