@@ -15,7 +15,7 @@ function eg_css_alter(&$css) {
 
 function eg_js_alter(&$js) {
     unset($js['settings']);
-    $js['themes/eg/js/bootstrap.js']['group'] = JS_SYSTEM;
+    $js['themes/eg/js/bootstrap.js']['group'] = 'JS_SYSTEM';
     /*
     unset($js['misc/jquery.js']);
     unset($js['misc/jquery.once.js']);
@@ -26,6 +26,20 @@ function eg_js_alter(&$js) {
     $js['themes/eg/js/bootstrap.js']['group'] = JS_SYSTEM;
 */
 
+}
+
+function main_menu()
+{
+    $user_menu = menu_navigation_links('main-menu');
+    print theme(
+        'links', array(
+        'links' => $user_menu,
+        'attributes' => array(
+            'id' => 'user-menu',
+            'class' => array('nav', 'navbar-nav'),
+        )
+
+    ));
 }
 /*
 function eg_block_view_alter(&$data, $block) {

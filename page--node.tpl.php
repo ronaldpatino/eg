@@ -7,25 +7,14 @@
         <?php main_menu();?>
     </div>
     <!-- Static navbar -->
-
-    <div class="row">
-        <div class="col-xs-12">
-            <img src="<?php print base_path() . drupal_get_path('theme', 'EG'); ?>/img/carrusel1.png">
-        </div>
-    </div>
-
     <div class="row centro">
-        <div class="col-xs-4">
-            <h2 class="text-ar">Energ&iacute;a Renovable</h2>
+        <div class="col-xs-8">
             <div class="noticias-main">
                 <?php print render($page['content']); ?>
             </div>
         </div>
-        <div class="col-xs-8">
-            <h2>&Uacute;ltimas Noticias</h2>
-            <div class="noticias-main">
-
-            </div>
+        <div class="col-xs-4">
+            SUBMENU DEL CONTENIDO
         </div>
     </div>
 
@@ -37,7 +26,7 @@
         <div class="ble">
             <div class="col-xs-4">
                 <?php if ($page['bloque_pie_izquierda']): ?>
-                        <?php print render($page['bloque_pie_izquierda']); ?>
+                    <?php print render($page['bloque_pie_izquierda']); ?>
                 <?php endif; ?>
             </div>
             <div class="col-xs-4">

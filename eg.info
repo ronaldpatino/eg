@@ -7,6 +7,7 @@ regions[header] = Header
 regions[sidebar_first] = Right sidebar
 regions[content] = Content
 regions[footer] = Footer
+
 regions[bloque_noticias_rotativo] = Bloque Noticias Rotativo
 regions[bloque_pie_izquierda] = Bloque Pie Izquierda
 regions[bloque_pie_centro] = Bloque Pie Centro

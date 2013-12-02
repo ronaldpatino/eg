@@ -4,16 +4,7 @@
     </div>
 
     <div class="navbar navbar-top" role="navigation">
-        <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Inicio</a></li>
-            <li><a href="#">Transparencia</a></li>
-            <li><a href="#">Programas/Servicios</a></li>
-            <li><a href="#">Planificaci&oacute;n</a></li>
-            <li><a href="#">Comunicados</a></li>
-            <li><a href="#">Biblioteca</a></li>
-            <li><a href="#">Enlaces</a></li>
-            <li><a href="#">Cont&aacute;cto</a></li>
-        </ul>
+        <?php main_menu();?>
     </div>
     <!-- Static navbar -->
     <div class="row centro">
@@ -41,7 +32,7 @@
         <div class="ble">
             <div class="col-xs-4">
                 <?php if ($page['bloque_pie_izquierda']): ?>
-                        <?php print render($page['bloque_pie_izquierda']); ?>
+                    <?php print render($page['bloque_pie_izquierda']); ?>
                 <?php endif; ?>
             </div>
             <div class="col-xs-4">
