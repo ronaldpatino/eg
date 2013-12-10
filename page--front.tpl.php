@@ -10,7 +10,32 @@
 
     <div class="row">
         <div class="col-xs-12">
-            <img src="<?php print base_path() . drupal_get_path('theme', 'EG'); ?>/img/carrusel1.png">
+
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="<?php print base_path() . drupal_get_path('theme', 'EG'); ?>/img/carrusel1.png">
+                    </div>
+                    <div class="item">
+                        <img src="<?php print base_path() . drupal_get_path('theme', 'EG'); ?>/img/carrusel1.png">
+                    </div>
+                    <div class="item">
+                        <img src="<?php print base_path() . drupal_get_path('theme', 'EG'); ?>/img/carrusel1.png">
+                    </div>
+                </div>
+                <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+            </div>
+
         </div>
     </div>
 

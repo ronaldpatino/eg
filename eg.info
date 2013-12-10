@@ -17,7 +17,7 @@ stylesheets[all][] = css/bootstrap.min.css
 stylesheets[all][] = css/custom-theme.css
 stylesheets[all][] = css/custom-components.css
 
-scripts[] = js/bootstrap.js
+scripts[] = js/bootstrap.min.js
 
 features[] = name
 features[] = main_menu
