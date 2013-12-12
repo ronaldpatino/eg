@@ -19,7 +19,7 @@
     </div>
 
     <div class="barra-main">
-        <img src="<?php print base_path() . drupal_get_path('theme', 'EG'); ?>/img/consulte-planilla.png"><img src="<?php print base_path() . drupal_get_path('theme', 'EG'); ?>/img/mapa-sitio.png"><img src="<?php print base_path() . drupal_get_path('theme', 'EG'); ?>/img/contacto.png"><img src="<?php print base_path() . drupal_get_path('theme', 'EG'); ?>/img/comentarios.png"><img src="<?php print base_path() . drupal_get_path('theme', 'EG'); ?>/img/quejas-reclamos.png">
+        <img src="<?php print base_path() . drupal_get_path('theme', 'EG'); ?>/img/mapa-sitio.png"><img src="<?php print base_path() . drupal_get_path('theme', 'EG'); ?>/img/actualize-datos.png"><img src="<?php print base_path() . drupal_get_path('theme', 'EG'); ?>/img/contacto.png"><img src="<?php print base_path() . drupal_get_path('theme', 'EG'); ?>/img/comentarios.png">
     </div>
     <br/>
     <div class="row">
