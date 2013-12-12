@@ -43,7 +43,7 @@
     </div>
     <div class="row">
         <div class="col-xs-12">
-            <img src="<?php print base_path() . drupal_get_path('theme', 'EG'); ?>/img/ecuador-ama-la-vida.png"><img src="<?php print base_path() . drupal_get_path('theme', 'EG'); ?>/img/presidencia-ecuador.png"><img src="<?php print base_path() . drupal_get_path('theme', 'EG'); ?>/img/ministerio-energia.png"><img src="<?php print base_path() . drupal_get_path('theme', 'EG'); ?>/img/ministerio-coordinador.png"><img src="<?php print base_path() . drupal_get_path('theme', 'EG'); ?>/img/revolucion-ciudadana.png"><img src="<?php print base_path() . drupal_get_path('theme', 'EG'); ?>/img/youtube.png"><img src="<?php print base_path() . drupal_get_path('theme', 'EG'); ?>/img/facebook.png"><img src="<?php print base_path() . drupal_get_path('theme', 'EG'); ?>/img/twitter.png">
+            <img src="<?php print base_path() . drupal_get_path('theme', 'EG'); ?>/img/ecuador-ama-la-vida.png"><img src="<?php print base_path() . drupal_get_path('theme', 'EG'); ?>/img/presidencia-ecuador.png"><img src="<?php print base_path() . drupal_get_path('theme', 'EG'); ?>/img/ministerio-energia.png"><img src="<?php print base_path() . drupal_get_path('theme', 'EG'); ?>/img/ministerio-coordinador.png"><img src="<?php print base_path() . drupal_get_path('theme', 'EG'); ?>/img/facebook.png"><img src="<?php print base_path() . drupal_get_path('theme', 'EG'); ?>/img/twitter.png">
         </div>
     </div>
 
