@@ -4,7 +4,7 @@
     </div>
 
     <div class="navbar navbar-top" role="navigation">
-        <?php main_menu();?>
+        <?php print render($page['bloque_main_menu']); ?>
     </div>
     <!-- Static navbar -->
 
