@@ -81,5 +81,5 @@ function eg_menu_link(array $variables) {
 function eg_menu_tree($tree) {
 
 
-    return '<ul class="nav">'. $tree['tree'] .'</ul>';
+    return '<ul class="nav navbar-nav">'. $tree['tree'] .'</ul>';
 }
