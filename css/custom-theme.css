@@ -217,6 +217,13 @@
     background-color: transparent !important;
 }
 
+
+ul.nav li.dropdown:hover ul.dropdown-menu{
+    display: block;
+    background-color: #0f6cb6;
+}
+
+
 .dropdown-menu > li > a {
     clear: both;
     color: #333333;
@@ -228,9 +235,25 @@
 }
 
 .dropdown-menu {
-
     margin: 2px 0 0;
-
     padding: 0 0;
-
 }
+
+.pie > li {
+    list-style: none;
+}
+
+.pie > li:before {
+    content: '';
+    background-color: #106CB7;
+    display: inline-block;
+    position: relative;
+    height: 10px;
+    width: 10px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    margin-right: 4px;
+    top: 0px;
+}
+
