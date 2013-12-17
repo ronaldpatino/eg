@@ -12,6 +12,7 @@
         <div class="col-xs-12">
 
             <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                <?php print render($page['bloque_noticias_rotativo']); ?>
                 <ol class="carousel-indicators">
                     <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
                     <li data-target="#carousel-example-generic" data-slide-to="1"></li>
@@ -62,7 +63,7 @@
         <div class="ble">
             <div class="col-xs-4">
                 <?php if ($page['bloque_pie_izquierda']): ?>
-                        <?php print render($page['bloque_pie_izquierda']); ?>
+                    <?php print render($page['bloque_pie_izquierda']); ?>
                 <?php endif; ?>
             </div>
             <div class="col-xs-4">
